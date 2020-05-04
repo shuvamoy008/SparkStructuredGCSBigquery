@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Person",
+  "namespace": "io.schemaregistry",
+  "fields": [
+    {"name": "id","type": ["int", "null"]},
+    {"name": "name","type": ["string", "null"]},
+    {"name": "mail","type": ["string", "null"]},
+    {"name": "sal","type": ["int", "null"]}
+  ]
+}

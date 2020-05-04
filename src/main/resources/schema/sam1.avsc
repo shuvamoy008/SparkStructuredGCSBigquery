@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "Person1",
+  "namespace": "io.schemaregistry",
+  "fields": [
+    {"name": "id","type": ["int", "null"]},
+    {"name": "name","type": ["string", "null"]}
+  ]
+}
